@@ -1,0 +1,23 @@
+
+{
+  "id": "./",
+  "name": "KHORSHID NO | Stone Facade Designer",
+  "short_name": "Stone Facade",
+  "description": "استودیو طراحی نمای سنگی",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b121a",
+  "theme_color": "#101923",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
