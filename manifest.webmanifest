@@ -3,7 +3,7 @@
   "id": "./",
   "name": "KHORSHID NO | Stone Facade Designer",
   "short_name": "Stone Facade",
-  "description": "استودیو طراحی نمای سنگی",
+  "description": "استودیو طراحی نمای سنگی خورشید نو",
   "lang": "fa",
   "dir": "rtl",
   "start_url": "./",
@@ -14,10 +14,22 @@
   "theme_color": "#101923",
   "icons": [
     {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
