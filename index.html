@@ -475,5 +475,20 @@ renderStoneGrid();renderAreaInputs();updateEstimateInputs();Object.entries(stone
 
 try{init();updateGameBadges();refreshMissionProgress();}catch(err){$('loading').textContent='بارگذاری سه‌بعدی ناموفق بود. اتصال اینترنت و پشتیبانی مرورگر از WebGL را بررسی کنید.';console.error(err)}
 </script>
+  
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("./service-worker.js")
+      .then(function (registration) {
+        console.log("Stone Facade Pro is ready:", registration.scope);
+      })
+      .catch(function (error) {
+        console.error("Service Worker registration failed:", error);
+      });
+  });
+}
+</script>
+
 </body>
 </html>
